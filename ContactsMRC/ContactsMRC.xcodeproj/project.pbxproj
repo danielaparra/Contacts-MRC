@@ -12,6 +12,10 @@
 		7B3AAE0621AF29A20098CD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3AAE0521AF29A20098CD16 /* Assets.xcassets */; };
 		7B3AAE0921AF29A20098CD16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3AAE0721AF29A20098CD16 /* LaunchScreen.storyboard */; };
 		7B3AAE0C21AF29A20098CD16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAE0B21AF29A20098CD16 /* main.m */; };
+		7B3AAE1421AF5A140098CD16 /* DYPContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAE1321AF5A140098CD16 /* DYPContactsTableViewController.m */; };
+		7B3AAE1721AF5B460098CD16 /* DYPContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAE1621AF5B460098CD16 /* DYPContactDetailViewController.m */; };
+		7B3AAE1A21AF5EEF0098CD16 /* DYPContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAE1921AF5EEF0098CD16 /* DYPContact.m */; };
+		7B3AAE1D21AF625F0098CD16 /* DYPContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAE1C21AF625F0098CD16 /* DYPContactController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,14 @@
 		7B3AAE0821AF29A20098CD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B3AAE0A21AF29A20098CD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3AAE0B21AF29A20098CD16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B3AAE1221AF5A140098CD16 /* DYPContactsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYPContactsTableViewController.h; sourceTree = "<group>"; };
+		7B3AAE1321AF5A140098CD16 /* DYPContactsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYPContactsTableViewController.m; sourceTree = "<group>"; };
+		7B3AAE1521AF5B460098CD16 /* DYPContactDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYPContactDetailViewController.h; sourceTree = "<group>"; };
+		7B3AAE1621AF5B460098CD16 /* DYPContactDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYPContactDetailViewController.m; sourceTree = "<group>"; };
+		7B3AAE1821AF5EEF0098CD16 /* DYPContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYPContact.h; sourceTree = "<group>"; };
+		7B3AAE1921AF5EEF0098CD16 /* DYPContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYPContact.m; sourceTree = "<group>"; };
+		7B3AAE1B21AF625F0098CD16 /* DYPContactController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYPContactController.h; sourceTree = "<group>"; };
+		7B3AAE1C21AF625F0098CD16 /* DYPContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYPContactController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,15 @@
 			children = (
 				7B3AADFC21AF298F0098CD16 /* AppDelegate.h */,
 				7B3AADFD21AF298F0098CD16 /* AppDelegate.m */,
+				7B3AAE1821AF5EEF0098CD16 /* DYPContact.h */,
+				7B3AAE1921AF5EEF0098CD16 /* DYPContact.m */,
+				7B3AAE1B21AF625F0098CD16 /* DYPContactController.h */,
+				7B3AAE1C21AF625F0098CD16 /* DYPContactController.m */,
 				7B3AAE0221AF298F0098CD16 /* Main.storyboard */,
+				7B3AAE1221AF5A140098CD16 /* DYPContactsTableViewController.h */,
+				7B3AAE1321AF5A140098CD16 /* DYPContactsTableViewController.m */,
+				7B3AAE1521AF5B460098CD16 /* DYPContactDetailViewController.h */,
+				7B3AAE1621AF5B460098CD16 /* DYPContactDetailViewController.m */,
 				7B3AAE0521AF29A20098CD16 /* Assets.xcassets */,
 				7B3AAE0721AF29A20098CD16 /* LaunchScreen.storyboard */,
 				7B3AAE0A21AF29A20098CD16 /* Info.plist */,
@@ -92,6 +112,7 @@
 		7B3AADF121AF298F0098CD16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DYP;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Daniela Parra";
 				TargetAttributes = {
@@ -136,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3AAE1721AF5B460098CD16 /* DYPContactDetailViewController.m in Sources */,
 				7B3AAE0C21AF29A20098CD16 /* main.m in Sources */,
+				7B3AAE1A21AF5EEF0098CD16 /* DYPContact.m in Sources */,
 				7B3AADFE21AF298F0098CD16 /* AppDelegate.m in Sources */,
+				7B3AAE1D21AF625F0098CD16 /* DYPContactController.m in Sources */,
+				7B3AAE1421AF5A140098CD16 /* DYPContactsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
